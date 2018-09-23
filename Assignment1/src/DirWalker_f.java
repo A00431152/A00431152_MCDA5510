@@ -83,11 +83,12 @@ public class DirWalker_f{
 						|| email.equals("")) {
 					skippedRows = skippedRows + 1;
 				} else {
-
-
-						String[] dataArray = new String[] {fName,lName,strNum,street,city,province,postalCode,country,phoneno,email,folderDate};
-		
+                 
+                         
+						Object[] dataArray = new String[] {fName,lName,strNum,street,city,province,postalCode,country,phoneno,email,folderDate};
+		                  System.out.println(folderDate);
 						csv.printRecord(dataArray);
+						
 						
 						
 						
