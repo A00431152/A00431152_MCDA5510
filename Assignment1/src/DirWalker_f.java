@@ -150,7 +150,7 @@ public class DirWalker_f{
 				CSVFormat.DEFAULT.withHeader("First Name", "Last Name", "Street Number", "Street", "City", "Province",
 						"Postal Code", "Country", "Phone Number", "Email Address", "Folder Date"));
 		
-		fw.walk("C:\\Users\\chandan\\Documents\\GitHub\\Assignments\\Sample Data\\Sample Data", csvPrinter);
+		fw.walk("C:/Users/chandan/Documents/GitHub/Assignments/Sample Data/Sample Data", csvPrinter);
 		csvPrinter.flush();
 		csvPrinter.close();
 		 writeEndTime = System.currentTimeMillis();
