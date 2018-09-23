@@ -1,0 +1,7 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Stats of Scan : 
+		 Total Files - 282861
+		 Total Directories - 623
+		 Total Rows - 201040
+		 Total Cells - 81821
+		 Total Write Time(time it takes to write the files to a file) - 13330 ms

@@ -1,10 +1,12 @@
 import java.io.File;
 
+
 public class DirWalker {
 
+	
     public void walk( String path ) {
 
-        File root = new File( path );
+        File root = new File("C:\\Users\\chandan\\Documents\\GitHub\\Assignments\\Test" );
         File[] list = root.listFiles();
 
         if (list == null) return;

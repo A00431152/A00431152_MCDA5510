@@ -11,7 +11,7 @@ public class SimpleCSVDatabase {
 			// Load the driver.
 			Class.forName("org.relique.jdbc.csv.CsvDriver");
 
-			String CSVDir = "C:\\Users\\dpenny\\workspace\\Sample Projects";
+			String CSVDir = "C:\\Users\\chandan\\Documents\\GitHub\\Assignments\\Test\\test";
 
 			// Create a connection. The first command line parameter is
 			// the directory containing the .csv files.
