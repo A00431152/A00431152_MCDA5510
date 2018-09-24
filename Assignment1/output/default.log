@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-24T01:09:59</date>
+  <millis>1537762199913</millis>
+  <sequence>0</sequence>
+  <level>SEVERE</level>
+  <class>DirWalker_f</class>
+  <method>csvParser</method>
+  <thread>1</thread>
+  <message>7</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:00</date>
+  <millis>1537762200067</millis>
+  <sequence>1</sequence>
+  <level>SEVERE</level>
+  <class>DirWalker_f</class>
+  <method>csvParser</method>
+  <thread>1</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:00</date>
+  <millis>1537762200078</millis>
+  <sequence>2</sequence>
+  <level>SEVERE</level>
+  <class>DirWalker_f</class>
+  <method>csvParser</method>
+  <thread>1</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:00</date>
+  <millis>1537762200182</millis>
+  <sequence>3</sequence>
+  <level>SEVERE</level>
+  <class>DirWalker_f</class>
+  <method>csvParser</method>
+  <thread>1</thread>
+  <message>6</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:08</date>
+  <millis>1537762208479</millis>
+  <sequence>4</sequence>
+  <level>INFO</level>
+  <class>DirWalker_f</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Time taken to walk through and write - 9985 ms</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:08</date>
+  <millis>1537762208480</millis>
+  <sequence>5</sequence>
+  <level>INFO</level>
+  <class>DirWalker_f</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Valid Number of Rows Read  - 201040</message>
+</record>
+<record>
+  <date>2018-09-24T01:10:08</date>
+  <millis>1537762208481</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>DirWalker_f</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> Skipped Number of  Rows  - 81821</message>
+</record>
