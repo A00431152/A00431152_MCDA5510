@@ -1,7 +1,0 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	 Details on the scan done 
-	Total Directories - 623
-	Total files read -13095
-	Total number of rows  282861
-	Total Valid rows- 201040
-	Total Skipped rows - 81821
-	Time taken to walk through and write - 9985 ms
