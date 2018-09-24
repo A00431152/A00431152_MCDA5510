@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-09-24T17:28:27</date>
-  <millis>1537820907212</millis>
+  <date>2018-09-24T18:51:25</date>
+  <millis>1537825885554</millis>
   <sequence>0</sequence>
   <level>SEVERE</level>
   <class>DirWalker_f</class>
@@ -12,8 +12,8 @@
   <message>1</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:27</date>
-  <millis>1537820907295</millis>
+  <date>2018-09-24T18:51:25</date>
+  <millis>1537825885637</millis>
   <sequence>1</sequence>
   <level>SEVERE</level>
   <class>DirWalker_f</class>
@@ -22,8 +22,8 @@
   <message>1</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:27</date>
-  <millis>1537820907330</millis>
+  <date>2018-09-24T18:51:25</date>
+  <millis>1537825885675</millis>
   <sequence>2</sequence>
   <level>SEVERE</level>
   <class>DirWalker_f</class>
@@ -32,28 +32,27 @@
   <message>6</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:29</date>
-  <millis>1537820909545</millis>
+  <date>2018-09-24T18:51:27</date>
+  <millis>1537825887261</millis>
   <sequence>3</sequence>
   <level>SEVERE</level>
   <class>DirWalker_f</class>
   <method>csvParser</method>
   <thread>1</thread>
-  <message>7</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910827</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888114</millis>
   <sequence>4</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
   <method>main</method>
   <thread>1</thread>
-  <message>Time taken to walk through and write - 4676 ms</message>
+  <message>Time taken to walk through and write - 3329 ms</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910840</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888120</millis>
   <sequence>5</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
@@ -62,8 +61,8 @@
   <message>	Total Directories - 623</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910850</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888122</millis>
   <sequence>6</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
@@ -72,8 +71,8 @@
   <message>	Total files read -13095</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910858</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888124</millis>
   <sequence>7</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
@@ -82,8 +81,8 @@
   <message>	Total number of rows  282861</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910862</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888125</millis>
   <sequence>8</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
@@ -92,8 +91,8 @@
   <message>Valid Number of Rows Read  - 201040</message>
 </record>
 <record>
-  <date>2018-09-24T17:28:30</date>
-  <millis>1537820910872</millis>
+  <date>2018-09-24T18:51:28</date>
+  <millis>1537825888128</millis>
   <sequence>9</sequence>
   <level>INFO</level>
   <class>DirWalker_f</class>
