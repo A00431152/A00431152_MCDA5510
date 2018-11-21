@@ -29,8 +29,8 @@ public class MySQLAccess {
 	public static void log(Level l, String message) {
 		try {
 		
-			FileHandler handler = new FileHandler("./capturedlogs_web.log", true);
-			logger.addHandler(handler);
+			//FileHandler handler = new FileHandler("./capturedlogs_web.log", true);
+			//logger.addHandler(handler);
 			 logger.setLevel(Level.ALL);
 			 
 			logger.log(l, message);
