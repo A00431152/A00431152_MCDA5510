@@ -1,0 +1,69 @@
+﻿@model IEnumerable<TechnicalTestWeb2.Models.Shipment>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Courier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackingNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServiceType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstShippedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOrderPlaced)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.firstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Courier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackingNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServiceType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstShippedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOrderPlaced)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
