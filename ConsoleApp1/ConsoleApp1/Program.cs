@@ -54,7 +54,7 @@ namespace MSCDA5510
             fileStream.Write("First Name");
             fileStream.Write(COMMA);
             fileStream.Write("Last Name");
-            fileStream.WriteLine();
+            fileStream.Write(COMMA);
             fileStream.Write("Street");
             fileStream.Write(COMMA);
             fileStream.WriteLine();
@@ -64,7 +64,6 @@ namespace MSCDA5510
                 fileStream.Write(GenerateFirstName());
                 fileStream.Write(COMMA);
                 fileStream.Write(GenerateLastName());
-                fileStream.WriteLine();
                 fileStream.Write(COMMA);
                 fileStream.Write(GenerateStreet());
                 fileStream.WriteLine();
